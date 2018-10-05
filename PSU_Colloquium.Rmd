@@ -1,0 +1,79 @@
+---
+title: "An Overview of Geospatial Work at the US EPA Western Ecology Division"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: "Marc Weber"
+output: 
+  ioslides_presentation:
+    logo: epa_logo_vert_verysmall.gif
+    css: custom.css
+---
+
+## A Little About Me
+
+* M.S. from PSU in Geography in 2001 
+    + Advisor Dr. Keith Hadley
+    + Biogeography focus
+    + Thesis on forest successsion and dynamics on lahar deposit at Mt. St. Helens
+* USFS PNW Research Station Forest Inventory and Analysis (FIA) program 2001-2003
+* USFS Fire Sciences Lab - Fire History Project Assistant 2003-2005
+* USFS Fire Sciences Lab - [LANDFIRE Project](https://www.landfire.gov/)
+* US EPA Western Ecology Division, Freshwater Ecology Branch, 2005-Present
+
+## EPA Structure
+<div class="centered">
+<img src="EPA_Org_Chart.PNG" alt="epa-org-chart" style="width: 800px;"/>
+</div>
+
+## EPA Regions
+<div class="centered">
+<img src="epa-regions.png" alt="epa-regions" style="width: 600px;"/>
+</div>
+
+## EPA Office of Research and Development
+<div class="centered">
+<img src="ord-chart-example.png" alt="ord-chart-example" style="width: 700px;"/>
+</div>
+
+## Western Ecology Division
+* What We Do:
+    + Research on terrestrial, freshwater and coastal systems
+    + Develop tools to monitor and predict condition of these systems and effect on human health
+    + Use a 'Watershed Epidemiology' approach to develop tools to help achieve sustainable, resilient watersheds
+    
+<div class="centered">
+<img src="WED-pics.PNG" alt="WED-pics" style="width: 800px;"/>
+</div>
+
+## NARS
+
+* The National Aquatic Resource Surveys (NARS) are collaborative programs between EPA, states, and tribes designed to assess the quality of the nation's:
+    + coastal waters
+    + lakes and reservoirs 
+    + rivers and streams
+    + wetlands 
+    
+* Surveys use a probablistic statistical survey design.
+
+<div class="centered">
+<img src="NARS-pics.PNG" alt="NARS-pics" style="width: 700px;"/>
+</div>
+
+
+
+## NARS Probability Surveys
+
+* In probability surveys:
+    + Sites are selected randomlly
+    + Each site represents a specific portion of the total resource or population of interest
+    + Results can be extrapolated to the entire population
+
+<div class="centered">
+<img src="survey-design.PNG" alt="survey-design" style="height: 250px;"/>
+</div>
+
+<div class="notes">
+- We can make unbiased assessments of condition of entire resource across large areas w/out monitoring every waterbody
+</div>
+    
+
+
