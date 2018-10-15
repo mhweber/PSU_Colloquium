@@ -1,12 +1,20 @@
 ---
 title: "An Overview of Geospatial Work at the US EPA Western Ecology Division"
-date: "25 October 2011"
+date: "25 October 2018"
 author: "Marc Weber"
 output: 
   ioslides_presentation:
     logo: epa_logo_vert_verysmall.gif
     css: custom.css
 ---
+
+## Today's Talk
+
+- A bit about myself, Western Ecology Division and EPA Research
+- EPA National Aquatic Resource Surveys
+- National mapping of aquatic condition
+- StreamCat and LakeCat Products
+- Some applications using these frameworks
 
 ## A Little About Me
 
@@ -56,6 +64,38 @@ output:
 
 <div class="centered">
 <img src="NARS-pics.PNG" alt="NARS-pics" style="width: 700px;"/>
+</div>
+
+## NARS
+
+<div class="centered">
+<img src="NARS_Timeline.png" alt="NARS_Timeline" style="width: 850px;"/>
+</div>
+
+## Sample Frames
+
+<div class="centered">
+<img src="SampleFrames.PNG" alt="SampleFrames" style="width: 850px;"/>
+</div>
+
+## Sample Frames
+
+<div class="columns-2">
+* Need to Assign:
+  - State
+  - Ecoregions
+  - Census Urban Boundaries
+  - Land Ownership
+  - Strahler Order to rivers
+  - Elevation to lakes
+  - NOAA Salinity zone to estuaries
+  - ....
+  
+<img src="SampleFrameAttributes.png" alt="SampleFrameAttributes" style="width: 400px;"/>
+</div>
+
+<div class="notes">
+- These assignments to frame elements necessary to stratify our samples and to make specific population estimates
 </div>
 
 
@@ -109,5 +149,37 @@ output:
 ## National / Regional Assessment vs. Predicted Condition Everywhere
 
 <div class="centered">
-<img src="StreamCatImpetus.png" alt="StreamCatImpetus" style="width: 750px;"/>
+<img src="StreamCatImpetus.png" alt="StreamCatImpetus" style="width: 850px;"/>
 </div>
+
+## Gather Upstream Landscape Information at Sampled Locations
+
+<div class="centered">
+<img src="StreamCatImpetus2.png" alt="StreamCatImpetus2" style="width: 850px;"/>
+</div>
+
+## Build Empirical Relationships of Watershed and Instream Conditions
+
+<div class="centered">
+<img src="StreamCatImpetus3.png" alt="StreamCatImpetus3" style="width: 850px;"/>
+</div>
+
+## Apply Empirical Models Back to Landscape to Produce Maps of Predicted Aquatic Condition
+
+<div class="centered">
+<img src="StreamCatImpetus4.png" alt="StreamCatImpetus4" style="width: 850px;"/>
+</div>
+
+## The Stream-Catchment Dataset (StreamCat)
+
+<div class="centered">
+<img src="StreamCat.png" alt="StreamCat" style="width: 550px;"/>
+</div>
+
+## The Stream-Catchment Dataset (StreamCat)
+
+<div class="centered">
+<img src="StreamCatJAWRA.PNG" alt="StreamCatJAWRA" style="width: 750px;"/>
+</div>
+
+
