@@ -1,6 +1,6 @@
 ---
 title: "An Overview of Geospatial Work at the US EPA Western Ecology Division"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "25 October 2011"
 author: "Marc Weber"
 output: 
   ioslides_presentation:
@@ -59,11 +59,10 @@ output:
 </div>
 
 
-
 ## NARS Probability Surveys
 
 * In probability surveys:
-    + Sites are selected randomlly
+    + Sites are selected randomly
     + Each site represents a specific portion of the total resource or population of interest
     + Results can be extrapolated to the entire population
 
@@ -75,5 +74,40 @@ output:
 - We can make unbiased assessments of condition of entire resource across large areas w/out monitoring every waterbody
 </div>
     
+## An Example Design
 
+<div class="centered">
+<img src="Example_design.PNG" alt="Example_design" style="height: 500px;"/>
+</div>
 
+<div class="notes">
+- An example design where we have strata (states) that we can extrapolate to, and we create an unequal probability of selection based on stream order (select more sites on smaller or larger streams for instance)
+</div>
+
+## Reporting and Research
+
+<div class="centered">
+<img src="reports_pubs.png" alt="reports_pubs" style="height: 450px;"/>
+</div>
+
+<div class="notes">
+- Able to report on condition and apply national scale consistent data in national scale research products - 100+ peer-reviewed journal articles and counting that have have applied the NARS data
+</div>
+
+## National and Ecoregional Condition Assessments
+
+<div class="centered">
+<img src="EcoregionalMMI.png" alt="EcoregionalMMI" style="height: 500px;"/>
+</div>
+
+## National and Ecoregional Condition Assessments
+
+<div class="centered">
+<img src="EcoregionalResults.png" alt="EcoregionalResults" style="height: 500px;"/>
+</div>
+
+## National / Regional Assessment vs. Predicted Condition Everywhere
+
+<div class="centered">
+<img src="StreamCatImpetus.png" alt="StreamCatImpetus" style="width: 750px;"/>
+</div>
