@@ -8,6 +8,10 @@ output:
     css: custom.css
 ---
 
+<style>
+.forceBreak { -webkit-column-break-after: always; break-after: column; }
+</style>
+
 ## Today's Talk
 
 - A bit about myself, Western Ecology Division and EPA Research
@@ -225,10 +229,27 @@ output:
 - We create summaries for the watersheds of each reach / catchment by performing zonal statitics of landscape data pixels for each catchment, and then using a tree-walking algorithm in Python to convert topology tables to numpy arrays for fast processing
 </div>
 
+## StreamCat Framework {.columns-2}
+
+* Landscape information summarized by:
+  - Catchment (local drainage)
+  - Riparian buffer (for some metrics)
+  - Watershed
+
+<p class="forceBreak"></p>
+
+<img src="StreamCatFramework.png" alt="StreamCatFramework" style="width: 450px;"/>
+
+## StreamCat Framework
+
+<div class="centered">
+<img src="RiparianBuffer.png" alt="RiparianBuffer" style="height: 400px;"/>
+</div>
+
 ## StreamCat Watershed Metrics
 
 <div class="centered">
-<img src="StreamCatFinal.png" alt="StreamCatFinal" style="width: 800px;"/>
+<img src="StreamCatUrb.png" alt="StreamCatUrb" style="width: 950px;"/>
 </div>
 
 <div class="notes">
@@ -338,10 +359,11 @@ output:
 ## Other
 
 * Nitrogen Drivers work?
-* Endangered Species / Pesitide modeling for detail?
+* Endangered Species / Pesticide modeling for detail?
 * micromap R package?
 * Water residence / Isotope (brookes) and lake drawdown (fergus)?
 * R spatial workshop teaching?
+* GEE / Neural Networks for deriving new landscape information with bearing on aquatic condition
 
 ## Acknowledgments
 
