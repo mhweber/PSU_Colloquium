@@ -59,18 +59,33 @@ output:
     + lakes and reservoirs 
     + rivers and streams
     + wetlands 
-    
-* Surveys use a probablistic statistical survey design.
 
 <div class="centered">
 <img src="NARS-pics.PNG" alt="NARS-pics" style="width: 700px;"/>
 </div>
+
 
 ## NARS
 
 <div class="centered">
 <img src="NARS_Timeline.png" alt="NARS_Timeline" style="width: 850px;"/>
 </div>
+
+## NARS Probability Surveys
+
+* In probability surveys:
+    + Sites are selected randomly
+    + Each site represents a specific portion of the total resource or population of interest
+    + Results can be extrapolated to the entire population
+
+<div class="centered">
+<img src="survey-design.PNG" alt="survey-design" style="height: 250px;"/>
+</div>
+
+<div class="notes">
+- We can make unbiased assessments of condition of entire resource across large areas w/out monitoring every waterbody
+</div>
+
 
 ## Sample Frames
 
@@ -98,21 +113,6 @@ output:
 - These assignments to frame elements necessary to stratify our samples and to make specific population estimates
 </div>
 
-
-## NARS Probability Surveys
-
-* In probability surveys:
-    + Sites are selected randomly
-    + Each site represents a specific portion of the total resource or population of interest
-    + Results can be extrapolated to the entire population
-
-<div class="centered">
-<img src="survey-design.PNG" alt="survey-design" style="height: 250px;"/>
-</div>
-
-<div class="notes">
-- We can make unbiased assessments of condition of entire resource across large areas w/out monitoring every waterbody
-</div>
     
 ## An Example Design
 
