@@ -87,11 +87,6 @@ output:
 <img src="survey-design.PNG" alt="survey-design" style="height: 250px;"/>
 </div>
 
-<div class="notes">
-- We can make unbiased assessments of condition of entire resource across large areas w/out monitoring every waterbody
-</div>
-
-
 ## Sample Frames
 
 <div class="centered">
@@ -114,29 +109,18 @@ output:
 <img src="SampleFrameAttributes.png" alt="SampleFrameAttributes" style="width: 400px;"/>
 </div>
 
-<div class="notes">
-- These assignments to frame elements necessary to stratify our samples and to make specific population estimates
-</div>
 
-    
 ## An Example Design
 
 <div class="centered">
 <img src="Example_design.PNG" alt="Example_design" style="height: 500px;"/>
 </div>
 
-<div class="notes">
-- An example design where we have strata (states) that we can extrapolate to, and we create an unequal probability of selection based on stream order (select more sites on smaller or larger streams for instance)
-</div>
 
 ## Reporting and Research
 
 <div class="centered">
 <img src="reports_pubs.png" alt="reports_pubs" style="height: 450px;"/>
-</div>
-
-<div class="notes">
-- Able to report on condition and apply national scale consistent data in national scale research products - 100+ peer-reviewed journal articles and counting that have have applied the NARS data
 </div>
 
 ## National and Ecoregional Condition Assessments
@@ -206,28 +190,10 @@ output:
 <img src="NHDPlusFramework.png" alt="NHDPlusFramework" style="width: 850px;"/>
 </div>
 
-<div class="notes">
-- NHD is our line network of streams we use
-- Available at 2 primary resolutions - 24k and 100k
-- 100k resolution combined with digital elevation data and a few other things used to create 'value added' project of NHDPlus
-- We use NHDPlus version 2 which is 100k resolution
-- The big addition is that NHDPlus defines 'local drainage' areas for every stream reach, which they call 'catchments'
-</div>
-
 ## NHDPlus Framework
 
 <div class="centered">
 <img src="NHDPlusFramework2.png" alt="NHDPlusFramework2" style="width: 750px;"/>
-</div>
-
-<div class="notes">
-- We have network topology (from-to relationships) for each flowline
-- We have local catchments defined for each stream segment
-- So we have the ability to overlay and move catchment landscape summaries from upstream to downstream
-</div>
-
-<div class="notes">
-- We create summaries for the watersheds of each reach / catchment by performing zonal statitics of landscape data pixels for each catchment, and then using a tree-walking algorithm in Python to convert topology tables to numpy arrays for fast processing
 </div>
 
 ## StreamCat Framework {.columns-2}
@@ -256,12 +222,7 @@ output:
 ## StreamCat Watershed Metrics
 
 <div class="centered">
-<img src="StreamCatUrb.png" alt="StreamCatUrb" style="width: 100px;"/>
-</div>
-
-<div class="notes">
-- Able to map full watershed metrics for things such as National Land Cover Dataset % Urbanization in watershed for all roughly 2 and a half million streams in NHDPlus
-- On first glance it looks much like just map of % urban in general, but zooming in to places you can see the attenuation of urban effect on the watershed for instance in the S. Platte draining eastward from the greater Denver metropolitan area
+<img src="StreamCatUrb.png" alt="StreamCatUrb" style="width: 1000px;"/>
 </div>
 
 ## Design Approach
@@ -303,18 +264,10 @@ output:
 <img src="LakeCat.png" alt="LakeCat" style="width: 800px;"/>
 </div>
 
-<div class="notes">
-- Developed and earlier this year published a corollary dataset to StreamCat focused for lake watersheds using waterbody features in the NHD
-</div>
-
 ## LakeCat
 
 <div class="centered">
 <img src="LakeCat2.png" alt="LakeCat2" style="width: 800px;"/>
-</div>
-
-<div class="notes">
-- 1/3 of NHDPlus lakes are 'on-network' and we can use StreamCat results - 2/3 are 'off-network' and had to have local catchments delineated and network topology (from-to) relationships built
 </div>
 
 ## Examples / Applications
@@ -342,8 +295,10 @@ output:
 5. Temperature regulation
 6. Habitat provision
 
-<div class="notes">
-- We identified landscape metrics we'd accumulated in StreamCat, as well as additional metrics we accumulated, that together were a best approximation for these six key functions
+## Examples / Applications - Watershed Integrity
+
+<div class="centered">
+<img src="IWI_Breakout.PNG" alt="IWI_Breakout" style="width: 700px;"/>
 </div>
 
 ## Examples / Applications - Index of Watershed Integrity (IWI)
@@ -352,43 +307,56 @@ output:
 <img src="IWI.png" alt="IWI" style="width: 700px;"/>
 </div>
 
-## Examples / Applications - Applying the IWI in the Western Balkans
+## Examples / Applications - Index of Watershed Integrity (IWI)
 
 <div class="centered">
-<img src="IWI_WBalkans.png" alt="IWI_WBalkans" style="height: 450px;"/>
+<img src="IWI_paper.PNG" alt="IWI_paper" style="width: 700px;"/>
 </div>
 
-<div class="notes">
-- Kelsey Aho, a post-doc at EPA, worked on partnership project between the EPA and Environmental Center for Central and Eastern Europe to adopt the IWI for aiding the sustainable development of the western Balkans transboundary river and lake basins.  
-- She adapted the six functional components used in the US IWI to western Balkans topography, land use, and data availability, and I implemented our StreamCat approach using their stream / basin framework to accumulate a new set of landscape metrics to inform the functional components of the IWI
+## Examples / Applications - Applying the IWI in the Western Balkans 
+
+```{r echo=F, message=F, warning=FALSE, fig.align="center"}
+library(sf)
+library(mapview)
+wb <- st_read('H:/KelseyData/Masks/CM_DDSP.shp', quiet=TRUE)
+wb <- st_union(wb, quiet=TRUE)
+mapview(wb, alpha.regions = .1, quiet=TRUE)
+```
+
+## Examples / Applications - Applying the IWI in the Western Balkans 
+
+<div class="centered">
+<img src="IWI_WBalkans.png" alt="IWI_WBalkans" style="height: 400px;"/>
 </div>
 
 ## Examples / Applications - Applying the IWI in SW Alaska
 
 <div class="centered">
-<img src="IWI_Alaska.png" alt="IWI_Alaska" style="width: 800px;"/>
-</div>
-<div class="notes">
-- Kelsey Aho also applied the IWI to the Masanuska-Susitna basin in SW Alaska
-- Again modified the six functional components to fit a different landscape and data constraints
-- This was a pilot use of the new USGS-EPA high resolution National Hydrograpy Dataset Plus where I had to again apply our StreamCat methodology to a new hydrologic framework
-
+<img src="IWI_Alaska.png" alt="IWI_Alaska" style="width: 900px;"/>
 </div>
 
-## Other Work and Future Directions
+## Future Directions
 
 <div class="centered">
 <img src="NYT.PNG" alt="NYT" style="width: 750px;"/>
 </div>
 
-## Other Work and Future Directions
+## Other Work
 
-* Nitrogen Drivers work?
-* Endangered Species / Pesticide modeling for detail?
-* micromap R package?
-* Water residence / Isotope (brookes) and lake drawdown (fergus)?
-* R spatial workshop teaching
+* Data Visualization - [Linked Micromaps](https://www.jstatsoft.org/article/view/v063i02)
+* R spatial workshop teaching:
+    - [AWRA GIS R Spatial Workshop](https://mhweber.github.io/AWRA_GIS_R_Workshop/)
+    - [EPA R Workgroup R Spatial Workshop](https://mhweber.github.io/R-User-Group-Spatial-Workshop-2018/)
+    - [GIS in Action R Spatial Workshop](https://mhweber.github.io/gis_in_action_r_spatial/)
 
+## Other Work    
+* Current part time detail with EPA Office of Pesticide Programs
+    - Geospatial / coding support for:
+        + Spatial Aquatics Model
+        + Endangered Species / Pesticide Modeling
+* Geospatial work with other scientists addressing:
+    - [Nitrogen inputs to streams in US](https://www.sciencedirect.com/science/article/pii/S0048969718316401)
+    - [Estimating inflow and water residence time for lakes in US via stable isotopes](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.2014.59.6.2150)
 
 ## Acknowledgments
 
@@ -399,6 +367,8 @@ output:
 * Darren Thornbrugh, Nationial Park Service
 * Zach Johnson, University of Washington
 * Kelsey Aho, University of Alaska Fairbanks
+
+**The views expressed here are my own, and do not necessarily reflect those of the U.S. Environmental Protection Agency.**
 
 ## Questions
 <div class="centered">
