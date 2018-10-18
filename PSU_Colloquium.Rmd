@@ -318,7 +318,7 @@ output:
 ```{r echo=F, message=F, warning=FALSE, fig.align="center"}
 library(sf)
 library(mapview)
-wb <- st_read('H:/KelseyData/Masks/CM_DDSP.shp', quiet=TRUE)
+wb <- st_read('L:/Priv/CORFiles/Geospatial_Library/Data/Project/IWI/WBalkans/Data/CM_DDSP.shp', quiet=TRUE)
 wb <- st_union(wb, quiet=TRUE)
 mapview(wb, alpha.regions = .1, quiet=TRUE)
 ```
