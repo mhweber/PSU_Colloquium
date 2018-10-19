@@ -56,6 +56,23 @@ output:
 <img src="WED-pics.PNG" alt="WED-pics" style="width: 800px;"/>
 </div>
 
+## Western Ecology Division
+* What I Do:
+    + Mapping
+    + Data Visualization
+    + Spatial Analysis to support research goals  
+    
+<div class="centered">
+<img src="SpatialWorkflow.PNG" alt="SpatialWorkflow" style="width: 800px;"/>
+</div>
+
+## Today's Talk
+
+- A bit about myself, Western Ecology Division and EPA Research
+- **EPA National Aquatic Resource Surveys**
+- StreamCat and LakeCat Data Products
+- National application of data to map 'Watershed Integrity'
+
 ## NARS
 
 * The National Aquatic Resource Surveys (NARS) are collaborative programs between EPA, states, and tribes designed to assess the quality of the nation's:
@@ -96,14 +113,14 @@ output:
 
 <div class="columns-2">
 * Need to Assign:
-  - State
-  - Ecoregions
-  - Census Urban Boundaries
-  - Land Ownership
-  - Strahler Order to rivers
-  - Elevation to lakes
-  - NOAA Salinity zone to estuaries
-  - ....
+    - State
+    - Ecoregions
+    - Census Urban Boundaries
+    - Land Ownership
+    - Strahler Order to rivers
+    - Elevation to lakes
+    - NOAA Salinity zone to estuaries
+    - ....
   
 <img src="SampleFrameAttributes.png" alt="SampleFrameAttributes" style="width: 400px;"/>
 </div>
@@ -158,6 +175,13 @@ output:
 <img src="StreamCatImpetus4.png" alt="StreamCatImpetus4" style="width: 850px;"/>
 </div>
 
+## Today's Talk
+
+- A bit about myself, Western Ecology Division and EPA Research
+- EPA National Aquatic Resource Surveys
+- **StreamCat and LakeCat Data Products**
+- National application of data to map 'Watershed Integrity'
+
 ## The Stream-Catchment Dataset (StreamCat)
 
 <div class="centered">
@@ -198,9 +222,9 @@ output:
 ## StreamCat Framework {.columns-2}
 
 * Landscape information summarized by:
-  - Catchment (local drainage)
-  - Riparian buffer (for some metrics)
-  - Watershed
+    - Catchment (local drainage)
+    - Riparian buffer (for some metrics)
+    - Watershed
 
 <p class="forceBreak"></p>
 
@@ -269,12 +293,19 @@ output:
 <img src="LakeCat2.png" alt="LakeCat2" style="width: 800px;"/>
 </div>
 
-## Examples / Applications
+## Uses of StreamCat
 <div class="centered">
 <img src="StreamCatUses.png" alt="StreamCatUses" style="height: 500px;"/>
 </div>
 
-## Examples / Applications - Watershed Integrity
+## Today's Talk
+
+- A bit about myself, Western Ecology Division and EPA Research
+- EPA National Aquatic Resource Surveys
+- StreamCat and LakeCat Data Products
+- **National application of data to map 'Watershed Integrity'**
+
+## Watershed Integrity
 - 'Watershed Epidemiology' 
 -  Use human health perspective to estimate risks based on behavior (e.g. diet, exercies, smoking)
 -  Apply risk / behavior model to factors influencing watershed health
@@ -284,7 +315,7 @@ output:
 <img src="HumanHealth.png" alt="HumanHealth" style="width: 500px;"/>
 </div>
 
-## Examples / Applications - Watershed Integrity
+## Watershed Integrity
 - **Six key functions** needed for a watershed to have 'integrity' (Flotemersch et al. 2015):
 
 1. Hydrologic regulation
@@ -294,27 +325,27 @@ output:
 5. Temperature regulation
 6. Habitat provision
 
-## Examples / Applications - Watershed Integrity
+## Watershed Integrity
 
 <div class="centered">
 <img src="IWI_Breakout.PNG" alt="IWI_Breakout" style="width: 700px;"/>
 </div>
 
-## Examples / Applications - Index of Watershed Integrity (IWI)
+## Watershed Integrity
 
 <div class="centered">
 <img src="IWI.png" alt="IWI" style="width: 700px;"/>
 </div>
 
-## Examples / Applications - Index of Watershed Integrity (IWI)
+## Watershed Integrity
 
 <div class="centered">
 <img src="IWI_paper.PNG" alt="IWI_paper" style="width: 700px;"/>
 </div>
 
-## Examples / Applications - Applying the IWI in the Western Balkans 
+## Watershed Integrity in the Western Balkans 
 
-```{r echo=F, message=F, warning=FALSE, fig.align="center"}
+```{r eval=F, echo=F, message=F, warning=FALSE, fig.align="center"}
 library(sf)
 library(mapview)
 wb <- st_read('L:/Priv/CORFiles/Geospatial_Library/Data/Project/IWI/WBalkans/Data/CM_DDSP.shp', quiet=TRUE)
@@ -322,13 +353,13 @@ wb <- st_union(wb, quiet=TRUE)
 mapview(wb, alpha.regions = .1, quiet=TRUE)
 ```
 
-## Examples / Applications - Applying the IWI in the Western Balkans 
+## Watershed Integrity in the Western Balkans 
 
 <div class="centered">
 <img src="IWI_WBalkans.png" alt="IWI_WBalkans" style="height: 400px;"/>
 </div>
 
-## Examples / Applications - Applying the IWI in SW Alaska
+## Watershed Integrity in SW Alaska
 
 <div class="centered">
 <img src="IWI_Alaska.png" alt="IWI_Alaska" style="width: 900px;"/>
@@ -337,7 +368,7 @@ mapview(wb, alpha.regions = .1, quiet=TRUE)
 ## Future Directions
 
 <div class="centered">
-<img src="NYT.PNG" alt="NYT" style="width: 750px;"/>
+<img src="CNN.PNG" alt="CNN" style="width: 750px;"/>
 </div>
 
 ## Other Work
