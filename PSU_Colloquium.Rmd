@@ -17,9 +17,8 @@ output:
 
 - A bit about myself, Western Ecology Division and EPA Research
 - EPA National Aquatic Resource Surveys
-- National mapping of aquatic condition
-- StreamCat and LakeCat Products
-- Some applications using these frameworks
+- StreamCat and LakeCat Data Products
+- National application of data to map 'Watershed Integrity'
 
 ## A Little About Me
 
@@ -368,7 +367,7 @@ mapview(wb, alpha.regions = .1, quiet=TRUE)
 * Zach Johnson, University of Washington
 * Kelsey Aho, University of Alaska Fairbanks
 
-**The views expressed here are my own, and do not necessarily reflect those of the U.S. Environmental Protection Agency.**
+*The views expressed here are my own, and do not necessarily reflect those of the U.S. Environmental Protection Agency.*
 
 ## Questions
 <div class="centered">
