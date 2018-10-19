@@ -316,14 +316,16 @@ output:
 </div>
 
 ## Watershed Integrity
-- **Six key functions** needed for a watershed to have 'integrity' (Flotemersch et al. 2015):
 
-1. Hydrologic regulation
-2. Regulation of water chemistry
-3. Sediment regulation
-4. Hydrologic connectivity
-5. Temperature regulation
-6. Habitat provision
+**Six key functions** needed for a watershed to have 'integrity' (Flotemersch et al. 2015): 
+
+
+    1. Hydrologic regulation
+    2. Regulation of water chemistry
+    3. Sediment regulation
+    4. Hydrologic connectivity
+    5. Temperature regulation
+    6. Habitat provision
 
 ## Watershed Integrity
 
@@ -345,13 +347,15 @@ output:
 
 ## Watershed Integrity in the Western Balkans 
 
-```{r eval=F, echo=F, message=F, warning=FALSE, fig.align="center"}
+<center>
+```{r echo=F, message=F, warning=FALSE, fig.width=4}
 library(sf)
 library(mapview)
 wb <- st_read('L:/Priv/CORFiles/Geospatial_Library/Data/Project/IWI/WBalkans/Data/CM_DDSP.shp', quiet=TRUE)
 wb <- st_union(wb, quiet=TRUE)
 mapview(wb, alpha.regions = .1, quiet=TRUE)
 ```
+</center>
 
 ## Watershed Integrity in the Western Balkans 
 
