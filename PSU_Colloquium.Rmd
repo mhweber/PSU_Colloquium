@@ -325,41 +325,32 @@ output:
 </div>
 
 ## Watershed Integrity
-- **Six key functions** needed for a watershed to have 'integrity' (Flotemersch et al. 2015):
+
+**Six key functions** needed for a watershed to have 'integrity' (Flotemersch et al. 2015)
 
 <div class="centered">
 <img src="HumanHealth2.png" alt="HumanHealth" style="width: 700px;"/>
 </div>
 
-## Watershed Integrity
+## Index of Watershed Watershed Integrity
 
 <div class="centered">
 <img src="IWI_Breakout.PNG" alt="IWI_Breakout" style="width: 800px;"/>
 </div>
 
-## Watershed Integrity
+## Index of Watershed Integrity
 
 <div class="centered">
 <img src="IWI.png" alt="IWI" style="width: 700px;"/>
 </div>
 
-## Watershed Integrity
+## Index of Watershed Integrity
 
 <div class="centered">
 <img src="IWI_paper.PNG" alt="IWI_paper" style="width: 700px;"/>
 </div>
 
-## Watershed Integrity in the Western Balkans 
-
-```{r eval=F, echo=F, message=F, warning=FALSE, fig.align="center"}
-# library(sf)
-# library(mapview)
-# wb <- st_read('L:/Priv/CORFiles/Geospatial_Library/Data/Project/IWI/WBalkans/Data/CM_DDSP.shp', quiet=TRUE)
-# wb <- st_union(wb, quiet=TRUE)
-# mapview(wb, alpha.regions = .1, quiet=TRUE)
-```
-
-## Watershed Integrity in the Western Balkans 
+## Regional Application of Index of Watershed Integrity 
 
 <div class="centered">
 <img src="IWI_WBalkans.png" alt="IWI_WBalkans" style="height: 400px;"/>
