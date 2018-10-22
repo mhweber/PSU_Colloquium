@@ -31,26 +31,14 @@ output:
 * USFS Fire Sciences Lab - [LANDFIRE Project](https://www.landfire.gov/)
 * US EPA Western Ecology Division, Freshwater Ecology Branch, 2005-Present
 
-## EPA Structure
-<div class="centered">
-<img src="EPA_Org_Chart.PNG" alt="epa-org-chart" style="width: 800px;"/>
-</div>
-
-## EPA Regions
-<div class="centered">
-<img src="epa-regions.png" alt="epa-regions" style="width: 600px;"/>
-</div>
-
-## EPA Office of Research and Development
-<div class="centered">
-<img src="ord-chart-example.png" alt="ord-chart-example" style="width: 700px;"/>
-</div>
 
 ## Western Ecology Division
+
+* Research Lab within EPA Office of Research and Development
 * What We Do:
     + Research on terrestrial, freshwater and coastal systems
     + Develop tools to monitor and predict condition of these systems and effect on human health
-    + Use a 'Watershed Epidemiology' approach to develop tools to help achieve sustainable, resilient watersheds
+    + Develop tools to help achieve sustainable, resilient watersheds
     
 <div class="centered">
 <img src="WED-pics.PNG" alt="WED-pics" style="width: 800px;"/>
@@ -66,14 +54,13 @@ output:
 <img src="SpatialWorkflow.PNG" alt="SpatialWorkflow" style="width: 800px;"/>
 </div>
 
-## Today's Talk
+## EPA National Aquatic Resource Surveys
 
-- A bit about myself, Western Ecology Division and EPA Research
-- **EPA National Aquatic Resource Surveys**
-- StreamCat and LakeCat Data Products
-- National application of data to map 'Watershed Integrity'
+<div class="centered">
+<img src="CWA.PNG" alt="CWA" style="height: 500px;"/>
+</div>
 
-## NARS
+## EPA National Aquatic Resource Surveys
 
 * The National Aquatic Resource Surveys (NARS) are collaborative programs between EPA, states, and tribes designed to assess the quality of the nation's:
     + coastal waters
@@ -85,33 +72,109 @@ output:
 <img src="NARS-pics.PNG" alt="NARS-pics" style="width: 700px;"/>
 </div>
 
-
-## NARS
-
-<div class="centered">
-<img src="NARS_Timeline.png" alt="NARS_Timeline" style="width: 850px;"/>
-</div>
-
-## NARS Probability Surveys
-
-* In probability surveys:
-    + Sites are selected randomly
-    + Each site represents a specific portion of the total resource or population of interest
-    + Results can be extrapolated to the entire population
+## EPA National Aquatic Resource Surveys
 
 <div class="centered">
-<img src="survey-design.PNG" alt="survey-design" style="height: 250px;"/>
+<img src="EPA_Reports.PNG" alt="EPA_Reports" style="width: 800px;"/>
 </div>
 
-## Sample Frames
+## EPA National Aquatic Resource Surveys
 
 <div class="centered">
-<img src="SampleFrames.PNG" alt="SampleFrames" style="width: 850px;"/>
+<img src="EPA_Reports.PNG" alt="EPA_Reports" style="width: 500px;"/>
 </div>
 
-## Sample Frames
+1. What percent of nation's water are in good, fair or poor condition?
 
-<div class="columns-2">
+## EPA National Aquatic Resource Surveys
+
+<div class="centered">
+<img src="EPA_Reports.PNG" alt="EPA_Reports" style="width: 500px;"/>
+</div>
+
+1. What percent of nation's water are in good, fair or poor condition?
+2. What is the relative importance of keys stressors such as nutrients or habitat alteration?
+
+## EPA National Aquatic Resource Surveys
+
+<div class="centered">
+<img src="EPA_Reports.PNG" alt="EPA_Reports" style="width: 500px;"/>
+</div>
+
+1. What percent of nation's water are in good, fair or poor condition?
+2. What is the relative importance of keys stressors such as nutrients or habitat alteration?
+3. Is water quality getting better or worse?
+
+## EPA National Aquatic Resource Surveys
+
+<div class="centered">
+<img src="EPA_Reports.PNG" alt="EPA_Reports" style="width: 500px;"/>
+</div>
+
+1. What percent of nation's water are in good, fair or poor condition?
+2. What is the relative importance of keys stressors such as nutrients or habitat alteration?
+3. Is water quality getting better or worse?
+4. Are investments in improving water quality focused appropriately?
+
+## NARS - Condition Reporting
+
+<div class="centered">
+<img src="EcoregionalMMI.png" alt="EcoregionalMMI" style="height: 500px;"/>
+</div>
+
+## NARS - Sample Design
+
+<div class="centered">
+<img src="SampleSites.PNG" alt="SampleSites" style="width: 1000px;"/>
+</div>
+
+* Same idea as political polling
+* Subset of sites have to represent aquatic resource nationally
+
+## NARS - Sample Design
+
+<div class="centered">
+<img src="SampleSites.PNG" alt="SampleSites" style="height: 200px;"/>
+</div>
+
+1. Sites are selected randomly
+
+## NARS - Sample Design
+
+<div class="centered">
+<img src="SampleSites.PNG" alt="SampleSites" style="height: 200px;"/>
+</div>
+
+1. Sites are selected randomly
+2. Each site represents a specific portion of the total resource or population of interest
+
+## NARS - Sample Design
+
+<div class="centered">
+<img src="SampleSites.PNG" alt="SampleSites" style="height: 200px;"/>
+</div>
+
+1. Sites are selected randomly
+2. Each site represents a specific portion of the total resource or population of interest
+3. Results of sampling can be extrapolated to the entire population
+
+## NARS - Reference Sites
+
+* Identify reference sites in “least disturbed” condition in ecological regions
+* Selected by states as well as a screening process of nationally selected sample sites
+
+<div class="centered">
+<img src="RefSites.PNG" alt="RefSites" style="width: 800px;"/>
+</div>
+
+## NARS - Representing the Target Population
+
+<div class="centered">
+<img src="NRSA.PNG" alt="NRSA" style="width: 850px;"/>
+</div>
+
+## NARS - GIS Attributes  {.columns-2}
+
 * Need to Assign:
     - State
     - Ecoregions
@@ -121,17 +184,29 @@ output:
     - Elevation to lakes
     - NOAA Salinity zone to estuaries
     - ....
-  
-<img src="SampleFrameAttributes.png" alt="SampleFrameAttributes" style="width: 400px;"/>
-</div>
+
+<p class="forceBreak"></p>
+
+<img src="Overlay.PNG" alt="Overlay" style="width: 400px;"/>
 
 
-## An Example Design
+## NARS - GIS Features + Probability Design
 
 <div class="centered">
-<img src="Example_design.PNG" alt="Example_design" style="height: 500px;"/>
+<img src="Example_design.png" alt="Example_design" style="width: 850px;"/>
 </div>
 
+## NARS - Site Sampling for Suite of Indicators
+
+<div class="centered">
+<img src="Sampling.png" alt="Sampling" style="width: 850px;"/>
+</div>
+
+## NARS - Condition Reporting
+
+<div class="centered">
+<img src="EcoregionalResults.png" alt="EcoregionalResults" style="height: 500px;"/>
+</div>
 
 ## Reporting and Research
 
@@ -139,13 +214,7 @@ output:
 <img src="reports_pubs.png" alt="reports_pubs" style="height: 450px;"/>
 </div>
 
-## National and Ecoregional Condition Assessments
-
-<div class="centered">
-<img src="EcoregionalMMI.png" alt="EcoregionalMMI" style="height: 500px;"/>
-</div>
-
-## National and Ecoregional Condition Assessments
+## NARS - Condition Reporting
 
 <div class="centered">
 <img src="EcoregionalResults.png" alt="EcoregionalResults" style="height: 500px;"/>
@@ -175,31 +244,22 @@ output:
 <img src="StreamCatImpetus4.png" alt="StreamCatImpetus4" style="width: 850px;"/>
 </div>
 
-## Today's Talk
-
-- A bit about myself, Western Ecology Division and EPA Research
-- EPA National Aquatic Resource Surveys
-- **StreamCat and LakeCat Data Products**
-- National application of data to map 'Watershed Integrity'
-
 ## The Stream-Catchment Dataset (StreamCat)
 
 <div class="centered">
 <img src="StreamCat.png" alt="StreamCat" style="width: 550px;"/>
 </div>
 
-## The Stream-Catchment Dataset (StreamCat)
+## The Stream-Catchment Dataset (StreamCat) {.columns-2}
 
-<div class="columns-2">
 * StreamCat is:
   - A dataset of 500+ landscape metrics 
   - Summarized for ~ 2.65 million stream segements and associated catchments in CONUS
   - Served as comma-delimited files by NHDPlus hydro-region or by state
   
-  
-<img src="LandscapeMetrics.png" alt="LandscapeMetrics" style="width: 450px;"/>
-</div>
+<p class="forceBreak"></p>
 
+<img src="LandscapeMetrics.png" alt="LandscapeMetrics" style="width: 450px;"/>
 
 ## The Stream-Catchment Dataset (StreamCat)
 
@@ -219,23 +279,6 @@ output:
 <img src="NHDPlusFramework2.png" alt="NHDPlusFramework2" style="width: 750px;"/>
 </div>
 
-## StreamCat Framework {.columns-2}
-
-* Landscape information summarized by:
-    - Catchment (local drainage)
-    - Riparian buffer (for some metrics)
-    - Watershed
-
-<p class="forceBreak"></p>
-
-<img src="StreamCatFramework.png" alt="StreamCatFramework" style="width: 450px;"/>
-
-## StreamCat Framework
-
-<div class="centered">
-<img src="RiparianBuffer.png" alt="RiparianBuffer" style="height: 400px;"/>
-</div>
-
 ## StreamCat Framework
 
 <div class="centered">
@@ -248,37 +291,10 @@ output:
 <img src="StreamCatUrb.png" alt="StreamCatUrb" style="width: 1000px;"/>
 </div>
 
-## Design Approach
-
-* *Transparency*    
-  - Primarily open source tools in Python and R
-  - Code published on GitHub repositories
-  - Documentation, QA files, and metadata on project ftp sites
-* *Quality Assurance*
-  - Standardized QA protocol for all landscape layers
-  - QA documentated online in R Markdown showing QA code and results
-
-
-## Design Approach
-
-* *Reproducibility*
-  - Use of 'control tables' and functional code
-  - Use of R Markdown and knitr to produce documentation
-  - Use of git version control for shared code editing
-* *Ease of Access*
-  - Data available as .csv files on public ftp server
-  - Results all have unique IDs to directly match to NHDPlus (in US)
-
-## Design Approach
+## StreamCat Application
 
 <div class="centered">
-<img src="StreamCatPages.png" alt="StreamCatPages" style="width: 850px;"/>
-</div>
-
-## Design Approach
-
-<div class="centered">
-<img src="StreamCatGitHub.png" alt="StreamCatGitHub" style="height: 500px;"/>
+<img src="EcoAps.PNG" alt="EcoAps" style="width: 1000px;"/>
 </div>
 
 ## LakeCat
@@ -298,37 +314,27 @@ output:
 <img src="StreamCatUses.png" alt="StreamCatUses" style="height: 500px;"/>
 </div>
 
-## Today's Talk
-
-- A bit about myself, Western Ecology Division and EPA Research
-- EPA National Aquatic Resource Surveys
-- StreamCat and LakeCat Data Products
-- **National application of data to map 'Watershed Integrity'**
-
 ## Watershed Integrity
-- 'Watershed Epidemiology' 
+
 -  Use human health perspective to estimate risks based on behavior (e.g. diet, exercies, smoking)
 -  Apply risk / behavior model to factors influencing watershed health
 
 
 <div class="centered">
-<img src="HumanHealth.png" alt="HumanHealth" style="width: 500px;"/>
+<img src="HumanHealth.png" alt="HumanHealth" style="width: 800px;"/>
 </div>
 
 ## Watershed Integrity
 - **Six key functions** needed for a watershed to have 'integrity' (Flotemersch et al. 2015):
 
-1. Hydrologic regulation
-2. Regulation of water chemistry
-3. Sediment regulation
-4. Hydrologic connectivity
-5. Temperature regulation
-6. Habitat provision
+<div class="centered">
+<img src="HumanHealth2.png" alt="HumanHealth" style="width: 700px;"/>
+</div>
 
 ## Watershed Integrity
 
 <div class="centered">
-<img src="IWI_Breakout.PNG" alt="IWI_Breakout" style="width: 700px;"/>
+<img src="IWI_Breakout.PNG" alt="IWI_Breakout" style="width: 800px;"/>
 </div>
 
 ## Watershed Integrity
@@ -346,11 +352,11 @@ output:
 ## Watershed Integrity in the Western Balkans 
 
 ```{r eval=F, echo=F, message=F, warning=FALSE, fig.align="center"}
-library(sf)
-library(mapview)
-wb <- st_read('L:/Priv/CORFiles/Geospatial_Library/Data/Project/IWI/WBalkans/Data/CM_DDSP.shp', quiet=TRUE)
-wb <- st_union(wb, quiet=TRUE)
-mapview(wb, alpha.regions = .1, quiet=TRUE)
+# library(sf)
+# library(mapview)
+# wb <- st_read('L:/Priv/CORFiles/Geospatial_Library/Data/Project/IWI/WBalkans/Data/CM_DDSP.shp', quiet=TRUE)
+# wb <- st_union(wb, quiet=TRUE)
+# mapview(wb, alpha.regions = .1, quiet=TRUE)
 ```
 
 ## Watershed Integrity in the Western Balkans 
@@ -365,10 +371,21 @@ mapview(wb, alpha.regions = .1, quiet=TRUE)
 <img src="IWI_Alaska.png" alt="IWI_Alaska" style="width: 900px;"/>
 </div>
 
-## Future Directions
+## Acknowledgments
 
+* Ryan Hill, Oak Ridge Institute for Science and Education (ORISE)
+* Scott Leibowitz, EPA
+* Tony Olsen, EPA
+* Rick Debbout, CSRA Inc.
+* Darren Thornbrugh, Nationial Park Service
+* Zach Johnson, University of Washington
+* Kelsey Aho, University of Alaska Fairbanks
+
+*The views expressed here are my own, and do not necessarily reflect those of the U.S. Environmental Protection Agency.*
+
+## Questions
 <div class="centered">
-<img src="CNN.PNG" alt="CNN" style="width: 750px;"/>
+<img src="OsloFjord.jpg" alt="OsloFjord" style="height: 500px;"/>
 </div>
 
 ## Other Work
@@ -387,20 +404,3 @@ mapview(wb, alpha.regions = .1, quiet=TRUE)
 * Geospatial work with other scientists addressing:
     - [Nitrogen inputs to streams in US](https://www.sciencedirect.com/science/article/pii/S0048969718316401)
     - [Estimating inflow and water residence time for lakes in US via stable isotopes](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.2014.59.6.2150)
-
-## Acknowledgments
-
-* Ryan Hill, Oak Ridge Institute for Science and Education (ORISE)
-* Scott Leibowitz, EPA
-* Tony Olsen, EPA
-* Rick Debbout, CSRA Inc.
-* Darren Thornbrugh, Nationial Park Service
-* Zach Johnson, University of Washington
-* Kelsey Aho, University of Alaska Fairbanks
-
-*The views expressed here are my own, and do not necessarily reflect those of the U.S. Environmental Protection Agency.*
-
-## Questions
-<div class="centered">
-<img src="OsloFjord.jpg" alt="OsloFjord" style="height: 500px;"/>
-</div>
