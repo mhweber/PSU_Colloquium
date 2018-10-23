@@ -97,7 +97,7 @@ output:
 <img src="EPA_Reports.PNG" alt="EPA_Reports" style="width: 500px;"/>
 </div>
 
-1. What percent of nation's water are in good, fair or poor condition?
+1. What percent of nation's water is in good, fair or poor condition?
 
 ## EPA National Aquatic Resource Surveys
 
@@ -105,7 +105,7 @@ output:
 <img src="EPA_Reports.PNG" alt="EPA_Reports" style="width: 500px;"/>
 </div>
 
-1. What percent of nation's water are in good, fair or poor condition?
+1. What percent of nation's water is in good, fair or poor condition?
 2. What is the relative importance of keys stressors such as nutrients or habitat alteration?
 
 ## EPA National Aquatic Resource Surveys
@@ -114,7 +114,7 @@ output:
 <img src="EPA_Reports.PNG" alt="EPA_Reports" style="width: 500px;"/>
 </div>
 
-1. What percent of nation's water are in good, fair or poor condition?
+1. What percent of nation's water is in good, fair or poor condition?
 2. What is the relative importance of keys stressors such as nutrients or habitat alteration?
 3. Is water quality getting better or worse?
 
@@ -256,7 +256,7 @@ output:
 
 * StreamCat is:
   - A dataset of 500+ landscape metrics 
-  - Summarized for ~ 2.65 million stream segements and associated catchments in CONUS
+  - Summarized for ~ 2.65 million stream segments and associated catchments in CONUS
   - Served as comma-delimited files by NHDPlus hydro-region or by state
   
 <p class="forceBreak"></p>
@@ -341,7 +341,13 @@ output:
 <img src="HumanHealth2.png" alt="HumanHealth" style="width: 700px;"/>
 </div>
 
-## Index of Watershed Watershed Integrity
+## Index of Watershed Integrity
+
+<div class="centered">
+<img src="IWI_Component.PNG" alt="IWI_Component" style="width: 850px;"/>
+</div>
+
+## Index of Watershed Integrity
 
 <div class="centered">
 <img src="IWI_Breakout.PNG" alt="IWI_Breakout" style="width: 800px;"/>
