@@ -4,6 +4,7 @@ author: "Marc Weber"
 date: "25 October 2018"
 output:
   ioslides_presentation:
+    widescreen: true
     css: custom.css
     logo: epa_logo_vert_verysmall.gif
   slidy_presentation: default
@@ -31,13 +32,24 @@ output:
 * USFS Fire Sciences Lab - [LANDFIRE Project](https://www.landfire.gov/)
 * US EPA Western Ecology Division, Freshwater Ecology Branch, 2008-Present
 
+## EPA Structure
+
+<div class="centered">
+<img src="EPA_Org_Chart.PNG" alt="EPA_Org_Chart" style="width: 800px;"/>
+</div>
+
+## EPA Office of Research and Development
+
+<div class="centered">
+<img src="ord-chart-example.png" alt="ord-chart-example" style="width: 800px;"/>
+</div>
 
 ## Western Ecology Division
 
 * Research Lab within EPA Office of Research and Development
 * What We Do:
     + Research on terrestrial, freshwater and coastal systems
-    + Develop tools to monitor and predict condition of these systems and effect on human health
+    + Develop tools to monitor and predict condition of these systems
     + Develop tools to help achieve sustainable, resilient watersheds
     
 <div class="centered">
@@ -47,6 +59,7 @@ output:
 ## Western Ecology Division
 * What I Do:
     + Mapping
+    + Data Wrangling
     + Data Visualization
     + Spatial Analysis to support research goals  
     
@@ -105,17 +118,6 @@ output:
 2. What is the relative importance of keys stressors such as nutrients or habitat alteration?
 3. Is water quality getting better or worse?
 
-## EPA National Aquatic Resource Surveys
-
-<div class="centered">
-<img src="EPA_Reports.PNG" alt="EPA_Reports" style="width: 500px;"/>
-</div>
-
-1. What percent of nation's water are in good, fair or poor condition?
-2. What is the relative importance of keys stressors such as nutrients or habitat alteration?
-3. Is water quality getting better or worse?
-4. Are investments in improving water quality focused appropriately?
-
 ## NARS - Condition Reporting
 
 <div class="centered">
@@ -161,7 +163,7 @@ output:
 ## NARS - Reference Sites
 
 * Identify reference sites in “least disturbed” condition in ecological regions
-* Selected by states as well as a screening process of nationally selected sample sites
+* Least disturbed <> pristine!
 
 <div class="centered">
 <img src="RefSites.PNG" alt="RefSites" style="width: 800px;"/>
@@ -315,12 +317,6 @@ output:
 <img src="LakeEut.PNG" alt="LakeEut" style="width: 800px;"/>
 </div>
 
-
-## Applications - Prioritizing Restoration
-<div class="centered">
-<img src="UseCases.PNG" alt="UseCases" style="height: 500px;"/>
-</div>
-
 ## Mapping Watershed Integrity
 
 <div class="centered">
@@ -363,23 +359,31 @@ output:
 <img src="IWI_paper.PNG" alt="IWI_paper" style="width: 700px;"/>
 </div>
 
+
+## Regional Application of Index of Watershed Integrity 
+
+<div class="centered">
+<img src="Kelsey_IWI.PNG" alt="Kelsey_IWI" style="width: 800px;"/>
+</div>
+
+
+## Applications - Prioritizing Restoration
+<div class="centered">
+<img src="UseCases.PNG" alt="UseCases" style="height: 500px;"/>
+</div>
+
+
 ## Applications - Prioritizing Restoration Using Predicted Biological Condition and ICI / IWI
 
 <div class="centered">
 <img src="EcolAp.PNG" alt="EcolAp" style="width: 600px;"/>
 </div>
 
+
 ## Applications - Prioritizing Restoration Using Predicted Biological Condition and ICI / IWI
 
 <div class="centered">
 <img src="EcolAp_Restoration.PNG" alt="EcolAp_Restoration" style="width: 900px;"/>
-</div>
-
-
-## Regional Application of Index of Watershed Integrity 
-
-<div class="centered">
-<img src="Kelsey_IWI.PNG" alt="Kelsey_IWI" style="width: 800px;"/>
 </div>
 
 
