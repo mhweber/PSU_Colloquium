@@ -309,9 +309,22 @@ output:
 <img src="LakeCat2.png" alt="LakeCat2" style="width: 800px;"/>
 </div>
 
-## Uses of StreamCat
+## Application of LakeCat
+
 <div class="centered">
-<img src="StreamCatUses.png" alt="StreamCatUses" style="height: 500px;"/>
+<img src="LakeEut.PNG" alt="LakeEut" style="width: 800px;"/>
+</div>
+
+
+## Applications - Prioritizing Restoration
+<div class="centered">
+<img src="UseCases.PNG" alt="UseCases" style="height: 500px;"/>
+</div>
+
+## Mapping Watershed Integrity
+
+<div class="centered">
+<img src="IWI.png" alt="IWI" style="width: 700px;"/>
 </div>
 
 ## Watershed Integrity
@@ -338,10 +351,10 @@ output:
 <img src="IWI_Breakout.PNG" alt="IWI_Breakout" style="width: 800px;"/>
 </div>
 
-## Index of Watershed Integrity
+## Index of Catchment and Watershed Integrity
 
 <div class="centered">
-<img src="IWI.png" alt="IWI" style="width: 700px;"/>
+<img src="ICI_IWI.PNG" alt="ICI_IWI" style="width: 900px;"/>
 </div>
 
 ## Index of Watershed Integrity
@@ -350,17 +363,25 @@ output:
 <img src="IWI_paper.PNG" alt="IWI_paper" style="width: 700px;"/>
 </div>
 
+## Applications - Prioritizing Restoration Using Predicted Biological Condition and ICI / IWI
+
+<div class="centered">
+<img src="EcolAp.PNG" alt="EcolAp" style="width: 600px;"/>
+</div>
+
+## Applications - Prioritizing Restoration Using Predicted Biological Condition and ICI / IWI
+
+<div class="centered">
+<img src="EcolAp_Restoration.PNG" alt="EcolAp_Restoration" style="width: 900px;"/>
+</div>
+
+
 ## Regional Application of Index of Watershed Integrity 
 
 <div class="centered">
-<img src="IWI_WBalkans.png" alt="IWI_WBalkans" style="height: 400px;"/>
+<img src="Kelsey_IWI.PNG" alt="Kelsey_IWI" style="width: 800px;"/>
 </div>
 
-## Watershed Integrity in SW Alaska
-
-<div class="centered">
-<img src="IWI_Alaska.png" alt="IWI_Alaska" style="width: 900px;"/>
-</div>
 
 ## Acknowledgments
 
