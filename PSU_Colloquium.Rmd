@@ -3,10 +3,11 @@ title: "An Overview of Geospatial Work at the US EPA Western Ecology Division"
 author: "Marc Weber"
 date: "25 October 2018"
 output:
+  beamer_presentation: default
   ioslides_presentation:
-    widescreen: true
     css: custom.css
     logo: epa_logo_vert_verysmall.gif
+    widescreen: yes
   slidy_presentation: default
 ---
 
@@ -175,7 +176,7 @@ output:
 <img src="NRSA.PNG" alt="NRSA" style="width: 850px;"/>
 </div>
 
-## NARS - GIS Attributes  {.columns-2}
+## NARS - GIS Attributes for Stratification {.columns-2}
 
 * Need to Assign:
     - State
@@ -191,6 +192,13 @@ output:
 
 <img src="Overlay.PNG" alt="Overlay" style="width: 400px;"/>
 
+## NARS - GIS Attributes for Stratification
+
+* Estimates of population parameters for groups within the population
+
+<div class="centered">
+<img src="UrbanMercury.PNG" alt="UrbanMercury" style="width: 700px;"/>
+</div>
 
 ## NARS - GIS Features + Probability Design
 
