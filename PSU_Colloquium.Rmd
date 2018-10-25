@@ -3,11 +3,11 @@ title: "An Overview of Geospatial Work at the US EPA Western Ecology Division"
 author: "Marc Weber"
 date: "25 October 2018"
 output:
-  beamer_presentation: default
   ioslides_presentation:
     css: custom.css
     logo: epa_logo_vert_verysmall.gif
     widescreen: yes
+  beamer_presentation: default
   slidy_presentation: default
 ---
 
@@ -198,12 +198,6 @@ output:
 
 <div class="centered">
 <img src="UrbanMercury.PNG" alt="UrbanMercury" style="width: 700px;"/>
-</div>
-
-## NARS - GIS Features + Probability Design
-
-<div class="centered">
-<img src="Example_design.png" alt="Example_design" style="width: 850px;"/>
 </div>
 
 ## NARS - Site Sampling for Suite of Indicators
